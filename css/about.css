@@ -1,0 +1,120 @@
+#body #about h1 {
+	color: #fcc5c9;
+	font-size: 24px;
+	font-family: 'DeliusSwashCaps-Regular';
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px;
+}
+#body #about h3 {
+	color: #fcc5c9;
+	font-size: 18px;
+	font-family: 'DeliusSwashCaps-Regular';
+	font-weight: normal;
+	margin: 0;
+	padding: 36px 10px 8px;
+}
+#body #about > p {
+	color: #989282;
+	font-size: 18px;
+	font-family: 'DeliusSwashCaps-Regular';
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px;
+}
+#body #about > p a {
+	color: #989282;
+	text-decoration: underline;
+}
+#body #about > p a:hover {
+	color: #b8a87c;
+}
+#body #about .article {
+	margin: 0;
+	overflow: hidden;
+	padding: 28px 0 0;
+	width: 960px;
+}
+#body #about .article div {
+	background: url(../imgs/frame-mid.gif) repeat-y top center;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 461px;
+}
+#body #about .article div:first-child {
+	margin: 0 20px 0 9px;
+}
+#body #about .article div h2 {
+	color: #ff8fb4;
+	background: url(../imgs/frame-top.gif) no-repeat top center;
+	font-size: 30px;
+	font-family: 'DeliusSwashCaps-Regular';
+	font-weight: normal;
+	line-height: 36px;
+	margin: 0;
+	padding: 25px 21px 20px;
+}
+#body #about .article div p {
+	background: url(../imgs/frame-bottom.gif) no-repeat bottom center;
+	color: #32b5ba;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 21px 31px;
+}
+#body #about .article div p a {
+	color: #32b5ba;
+	text-decoration: underline;
+}
+#body #about .article div p a:hover {
+	color: #8cdfe2;
+}
+#body #about .section {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 40px 0;
+	width: 940px;
+}
+#body #about .section div {
+	border-bottom: 1px solid #876a38;
+	border-top: 1px solid #876a38;
+	min-height: 141px;
+	float: left;
+	margin: 0;
+	padding: 18px 20px;
+	width: 340px;
+}
+#body #about .section div h4 {
+	color: #fcc5c9;
+	font-size: 16px;
+	font-family: 'DeliusSwashCaps-Regular';
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 5px;
+}
+#body #about .section div p {
+	color: #989282;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+#body #about .section div p a {
+	color: #989282;
+	text-decoration: underline;
+}
+#body #about .section div p a:hover {
+	color: #b8a87c;
+}
+#body #about .section img {
+	display: block;
+	float: left;
+	margin: 22px 20px;
+}
+.col{
+	width: 130px;
+	border-radius: 1000px;
+	border: #5d461e 4px solid;
+}

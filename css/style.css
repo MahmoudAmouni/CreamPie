@@ -1,0 +1,249 @@
+                                      /* GLOBALL CSS 👌*/
+@font-face {
+	font-family: 'DeliusSwashCaps-Regular';
+	src: url('../fonts/DeliusSwashCaps-Regular.eot');
+	src: url('../fonts/DeliusSwashCaps-Regular.woff') format('woff'), url('../fonts/DeliusSwashCaps-Regular.ttf') format('truetype'), url('../fonts/DeliusSwashCaps-Regular.svg') format('svg');
+}
+body {
+	background: url(../imgs/bg-body.jpg) repeat left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+}
+a {
+	outline: none;
+}
+img {
+	border: 0;
+}
+#header {
+	background: url(../imgs/bg-header.jpg) repeat-x left top;
+	border-top: 2px solid #1bc4ca;
+}
+#header div:first-child {
+	background: url(../imgs/light.png) no-repeat center top;
+	height: 144px;
+}
+#header div:first-child div {
+	border: 0;
+	background: none;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 27px 0 0;
+	text-align: center;
+	width: 960px;
+}
+#header div:first-child div ul {
+	list-style: none;
+	float: left;
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	padding: 46px 0;
+	width: auto;
+}
+#header div:first-child div ul li {
+	float: left;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	width: 160px;
+}
+#header div:first-child div ul li a {
+	background: none;
+	color: #989282;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 14px;
+	padding: 0 1px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#header div:first-child div ul li.current a {
+	border-bottom: 1px solid #ff8fb4;
+	color: #ff8fb4;
+}
+#header div:first-child div ul li a:hover {
+	color: #ff8fb4;
+}
+#header div:first-child div a#logo {
+	float: left;
+	margin: 0 34px;
+}
+#header div:first-child div ul li a:hover {
+	color: #ff8fb4;
+}
+#header div:first-child div a#logo {
+	float: left;
+	margin: 0 34px;
+}
+#header div {
+	background: url(../imgs/bg-yellow.png) repeat-x left bottom;
+	width: 100%;
+}
+#header > div > ul {
+	background: none;
+	height: auto;
+	margin: 0 auto;
+	padding: 22px 0 27px;
+	text-align: center;
+	width: 960px;
+}
+#header > div ul li {
+	display: inline;
+	float: none;
+	margin: 0 10px;
+}
+#header > div > ul li a {
+	color: #989282;
+	display: inline-block;
+	font-family: 'DeliusSwashCaps-Regular';
+	font-size: 20px;
+	font-weight: normal;
+	height: 41px;
+	line-height: 41px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: capitalize;
+	width: 220px;
+}
+#header > div > ul li.current a {
+	background: url(../imgs/bg-menu.png) no-repeat right top;
+	color: #ff8fb4;
+}
+#header > div > ul li a:hover {
+	color: #ff8fb4;
+}
+
+#body {
+	background: #441326;
+	border-bottom: 1px solid #61273d;
+	min-height: 1050px;
+	padding: 27px 0 20px;
+	width: 100%;
+}
+#body > div {
+	margin: 0 auto;
+	padding: 0;
+	width: 960px;
+}
+                                             /* GLOBALL CSS 👌*/
+
+											 /* #CONTENT GLOBAL CSS 🐡 */
+
+#body #content {
+	overflow: hidden;
+}
+#body #content > p {
+	color: #989282;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	padding: 0 31px;
+}
+#body #content > p a {
+	color: #989282;
+	text-decoration: underline;
+}
+#body #content > p a:hover {
+	color: #b8a87c;
+}
+#body #content ul {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+#body #content ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+                                             /* #CONTENT GLOBAL CSS 🐡 */
+
+
+                                             /* #FOOTER GLOBAL CSS 😊 */
+
+#footer {
+    background: url(../imgs/footer-shadow.png) repeat-x left top;
+    margin: 0;
+    padding: 40px 0;
+}
+
+#footer div {
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    width: 940px;
+}
+
+#footer div div {
+    float: left;
+    padding: 0;
+    width: 470px;
+}
+
+#footer a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #787878;
+    transition: color 0.3s;
+}
+
+#footer a:hover {
+    color: #d6d5d5;
+}
+
+#footer div p {
+    color: #4e4e4e;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    text-align: right;
+    width: 470px;
+}
+                                                /* #FOOTER GLOBAL CSS 😊 */
+
+                                             /* #POP UP GLOBAL CSS 😎 */
+
+.pop-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%; 
+    max-height: 80%; 
+    object-fit: cover;
+}
+.pop-img{
+    position: fixed ;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 52, 52, 0.5);
+  
+    backdrop-filter: blur(10px); 
+    height: 100% ;
+    width: 100%;
+    z-index: 100;
+    display: none;
+   
+    
+  }
+   .pop-img span{
+    position: absolute;
+    top: 0px ;
+    right: 10px;
+    font-size: 120px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0) ;
+    cursor: pointer;
+    z-index: 100;
+  
+  }
+
+
+                            
+

@@ -1,0 +1,95 @@
+#body #content #blog {
+	float: left;
+	margin: 0 10px;
+	padding: 0;
+	width: 700px;
+}
+#body #content #blog div {
+	border-bottom: 1px solid #876a38;
+	border-top: 1px solid #876a38;
+	margin: 0 0 35px;
+	padding: 17px 20px 40px;
+}
+#body #content #blog div span {
+	color: #989282;
+	display: block;
+	line-height: 24px;
+	margin: 0;
+}
+#body #content #blog div span a {
+	color: #989282;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#body #content #blog div h3 {
+	color: #fcc5c9;
+	font-size: 16px;
+	font-family: 'DeliusSwashCaps-Regular';
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#body #content #blog div h3 a {
+	color: #fff;
+	text-decoration: none;
+}
+#body #content #blog div p {
+	color: #989282;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#body #content #blog div p a {
+	color: #989282;
+	text-decoration: underline;
+}
+#body #content #blog div a:hover {
+	color: #b8a87c;
+}
+#body #content #blog div span a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+#body #content #sidebar {
+	float: left;
+	margin: 0 10px;
+	padding: 0;
+	width: 220px;
+}
+#body #content #sidebar div, #body #content #sidebar div ul {
+	margin: 0;
+	padding: 0;
+}
+#body #content #sidebar div {
+	margin: 0 0 6px;
+	padding: 17px 0 0;
+}
+#body #content #sidebar div ul li {
+	background: url(../imgs/bullet.png) no-repeat 0 10px;
+	list-style: none;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+#body #content #sidebar div ul li a {
+	color: #989282;
+	display: block;
+	text-decoration: none;
+}
+#body #content #sidebar div ul li a:hover {
+	text-decoration: underline;
+}
+#body #content #sidebar div h3 {
+	color: #fcc5c9;
+	font-size: 16px;
+	font-family: 'DeliusSwashCaps-Regular';
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-transform: capitalize;
+}
+body{
+	height: 500px;
+}
